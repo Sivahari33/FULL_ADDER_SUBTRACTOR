@@ -1,3 +1,5 @@
+NAME:SIVHARIBALAN
+REG NO:212224220103
 # FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
@@ -22,7 +24,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin
 
 Carry = AB + ACin + BCin
 
-![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/0f30ba51-5ffb-4198-845f-18e054f675e7)
+![image](https://github.com/user-attachments/assets/5bed67a9-12de-4261-92e5-9db10904321a)
 
 **Figure -1 FULL ADDER**
 
@@ -30,26 +32,39 @@ Carry = AB + ACin + BCin
 
 A full subtractor is a combinational circuit that performs subtraction involving three bits, namely minuend, subtrahend, and borrow-in . It accepts three inputs: minuend, subtrahend and a borrow bit and it produces two outputs: difference and borrow.
 
-![image](https://github.com/naavaneetha/FULL_ADDER_SUBTRACTOR/assets/154305477/02b24f51-ab51-4304-9ad6-7b81ffc1ead5)
+![300521081-02b24f51-ab51-4304-9ad6-7b81ffc1ead5](https://github.com/user-attachments/assets/4c5adeb1-bf07-44b7-8698-865dd4ee71a1)
+
 
 Diff = A ⊕ B ⊕ Bin 
 
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
+![391088496-3a93e910-461f-4e76-8565-a18d9014d0a8](https://github.com/user-attachments/assets/bd047613-1a73-4357-89ee-3df2e19dea00)
 
 **Procedure**
-
 Write the detailed procedure here
+
+1 Type the program in Quartus software.
+
+2 Compile and run the program. 
+
+3 Generate the RTL schematic and save the logic diagram.
+
+4 Create nodes for inputs and outputs to generate the timing diagram.
+
+5 For different input combinations generate the timing diagram.
 
 **Program:**
 
-/* Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![391082567-9ee22bc1-825a-41ca-b19c-38b9c05d3fa0](https://github.com/user-attachments/assets/94090f0e-fd8f-4835-b9af-2799e66bdcb2)
+
 
 **RTL Schematic**
+![391082756-97ab4fe5-d382-4d0c-a461-30ad8b182437](https://github.com/user-attachments/assets/32e93a04-65d2-47ee-b803-addfc9fbb45f)
 
 **Output Timing Waveform**
+![391082802-4cfc2e62-4396-41f9-b584-cba1a3419c49](https://github.com/user-attachments/assets/8caed757-52e4-445a-aae6-2bc81c3f1055)
 
 **Result:**
 
